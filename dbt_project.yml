@@ -35,11 +35,11 @@ clean-targets:         # directories to be removed by `dbt clean`
 # continue to be built as views. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 
-name: 'pms_dbt'
+name: pms_dbt
 version: '1.0'
 config-version: 2
 
-profile: 'pms_dbt'
+profile: pms_dbt
 
 models:
   pms_dbt:
