@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: pms_raw          # Logical source name (used in dbt models)
+    database: PMS_ANALYTICS
+    schema: RAW
+    tables:
+      - name: PATIENTS
+      - name: APPOINTMENTS
+      - name: BILLING
